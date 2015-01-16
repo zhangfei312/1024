@@ -7,14 +7,23 @@
 //
 
 #import "ZFAppDelegate.h"
-
+#import "mainViewController.h"
 @implementation ZFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg2.png"]];
+    
+    //self.window.backgroundColor = [UIColor whiteColor];
+    
+    mainViewController *mainViewcrol = [[mainViewController alloc]initWithNibName:nil bundle:nil];
+    
+    self.window.rootViewController = mainViewcrol;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

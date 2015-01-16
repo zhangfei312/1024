@@ -19,6 +19,13 @@
 		9EAA0E2B1A68CB96006FF072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAA0E131A68CB96006FF072 /* UIKit.framework */; };
 		9EAA0E331A68CB96006FF072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E311A68CB96006FF072 /* InfoPlist.strings */; };
 		9EAA0E351A68CB96006FF072 /* _024Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA0E341A68CB96006FF072 /* _024Tests.m */; };
+		9EAA0E401A68CC31006FF072 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA0E3F1A68CC31006FF072 /* mainViewController.m */; };
+		9EAA0E431A68CC46006FF072 /* LuckyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA0E421A68CC46006FF072 /* LuckyLabel.m */; };
+		9EAA0E491A68CEAF006FF072 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E441A68CEAF006FF072 /* BGM.mp3 */; };
+		9EAA0E4A1A68CEAF006FF072 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E451A68CEAF006FF072 /* icon.png */; };
+		9EAA0E4B1A68CEAF006FF072 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E461A68CEAF006FF072 /* bg2.png */; };
+		9EAA0E4C1A68CEAF006FF072 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E471A68CEAF006FF072 /* bg.png */; };
+		9EAA0E4D1A68CEAF006FF072 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA0E481A68CEAF006FF072 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,15 @@
 		9EAA0E301A68CB96006FF072 /* 1024Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1024Tests-Info.plist"; sourceTree = "<group>"; };
 		9EAA0E321A68CB96006FF072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EAA0E341A68CB96006FF072 /* _024Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _024Tests.m; sourceTree = "<group>"; };
+		9EAA0E3E1A68CC31006FF072 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		9EAA0E3F1A68CC31006FF072 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		9EAA0E411A68CC46006FF072 /* LuckyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyLabel.h; sourceTree = "<group>"; };
+		9EAA0E421A68CC46006FF072 /* LuckyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyLabel.m; sourceTree = "<group>"; };
+		9EAA0E441A68CEAF006FF072 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		9EAA0E451A68CEAF006FF072 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9EAA0E461A68CEAF006FF072 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		9EAA0E471A68CEAF006FF072 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9EAA0E481A68CEAF006FF072 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,10 @@
 			children = (
 				9EAA0E1E1A68CB96006FF072 /* ZFAppDelegate.h */,
 				9EAA0E1F1A68CB96006FF072 /* ZFAppDelegate.m */,
+				9EAA0E3E1A68CC31006FF072 /* mainViewController.h */,
+				9EAA0E3F1A68CC31006FF072 /* mainViewController.m */,
+				9EAA0E411A68CC46006FF072 /* LuckyLabel.h */,
+				9EAA0E421A68CC46006FF072 /* LuckyLabel.m */,
 				9EAA0E211A68CB96006FF072 /* Images.xcassets */,
 				9EAA0E161A68CB96006FF072 /* Supporting Files */,
 			);
@@ -118,6 +138,11 @@
 		9EAA0E161A68CB96006FF072 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EAA0E441A68CEAF006FF072 /* BGM.mp3 */,
+				9EAA0E451A68CEAF006FF072 /* icon.png */,
+				9EAA0E461A68CEAF006FF072 /* bg2.png */,
+				9EAA0E471A68CEAF006FF072 /* bg.png */,
+				9EAA0E481A68CEAF006FF072 /* background.png */,
 				9EAA0E171A68CB96006FF072 /* 1024-Info.plist */,
 				9EAA0E181A68CB96006FF072 /* InfoPlist.strings */,
 				9EAA0E1B1A68CB96006FF072 /* main.m */,
@@ -220,7 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAA0E4A1A68CEAF006FF072 /* icon.png in Resources */,
+				9EAA0E491A68CEAF006FF072 /* BGM.mp3 in Resources */,
+				9EAA0E4D1A68CEAF006FF072 /* background.png in Resources */,
+				9EAA0E4C1A68CEAF006FF072 /* bg.png in Resources */,
 				9EAA0E1A1A68CB96006FF072 /* InfoPlist.strings in Resources */,
+				9EAA0E4B1A68CEAF006FF072 /* bg2.png in Resources */,
 				9EAA0E221A68CB96006FF072 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAA0E401A68CC31006FF072 /* mainViewController.m in Sources */,
 				9EAA0E201A68CB96006FF072 /* ZFAppDelegate.m in Sources */,
 				9EAA0E1C1A68CB96006FF072 /* main.m in Sources */,
+				9EAA0E431A68CC46006FF072 /* LuckyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +390,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1024/1024-Prefix.pch";
 				INFOPLIST_FILE = "1024/1024-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1024/1024-Prefix.pch";
 				INFOPLIST_FILE = "1024/1024-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
